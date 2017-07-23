@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F1E8
+}
+
+img {
+  height: 70px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+
+  background-color:none;
+  color: white;
+  /*display: inline;*/
+}
+
+/*.links {
+  margin-left: 35%;
+}
+
+nav a {
+  margin-left: 60px;
+}*/
+
+.top-half, .bottom-half {
+  width: 70%;
+  margin: auto;
+  overflow: auto;
+}
+.header{
+  text-align: center;
+  font-size: 80px;
+}
+
+.more-details {
+  display: flex;
+}
+
+.info {
+}
+
+.title {
+  font-size: 25px;
+}
+
+.quote {
+  border-left: 1px solid black;
+  padding-left: 2%;
+}
+
+.mid-page {
+  background-image: url(../img/background-3.jpg);
+  height: 300px;
+  background-size: 100%;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  padding-top: 125px;
+  color: white;
+}
+
+.bottom-details {
+  width: 75%;
+}
+
+.plans {
+}
+
+table thead tr td {
+  border: 1px solid black;
+}
+
+table tbody tr td {
+  border: 1px solid black;
+}
+
+.details {
+  float: right;
+  margin-top: -200px;
+  width: 20%;
+}
+
+footer {
+  background-color: rgb(43, 47, 39);
+  color: white;
+  padding: 10px;
+}
+
+
+/*.details {
+  width: 20%;
+}*/
