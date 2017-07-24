@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F1E8
+}
+
+div img {
+  width: 30%;
+  max-height: 500px;
+  /*z-index: 0;*/
+  /*position: relative;*/
+  margin: 1%;
+}
+
+p {
+  /*z-index: auto;*/
+  position: absolute;
+  color: white;
+  background-color: rgb(43, 47, 39);
+  /*margin-left: 100px;*/
+  /*float: left;*/
+}
+nav{
+  display: flex;
+  justify-content: center;
+
+  background-color:none;
+  color: white;
+}
+
+.part-1 {
+  /*float: left;*/
+  display: flex;
+  border: 1px solid green;
+}
+
+.part-2 {
+  border: 1px solid blue;
+  display: flex;
+
+}

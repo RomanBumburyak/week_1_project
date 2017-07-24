@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url(../img/background-2.jpg);
+  background-size: auto;
+  height: 800px;
+  z-index: 0;
+}
+
+.form {
+  background-color: white;
+  z-index: 5;
+  position: absolute;
+  /*border-top: 15px;*/
+  padding: 3%;
+  margin-top: 200px;
+  margin-left: 27%;
+}
+
+p {
+  border-bottom: 2px solid rgb(150, 135, 115);
+  color: rgb(150, 135, 115);
+}
+
+.button {
+  margin: auto;
+  font-size: 20px;
+  padding: 3%;
+  color: white;
+  background-color: rgb(150, 135, 115);
+  width: 100px;
+  text-align: center;
+}

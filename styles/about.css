@@ -13,8 +13,7 @@ img {
 nav{
   display: flex;
   justify-content: center;
-
-  background-color:none;
+  background-color: white;
   color: white;
   /*display: inline;*/
 }
