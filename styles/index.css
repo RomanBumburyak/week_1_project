@@ -28,6 +28,7 @@ nav{
 .links {
   justify-content: center;
   margin: auto;
+  color: Black;
 }
 
 nav a {
@@ -64,13 +65,13 @@ nav{
   z-index: -1;
 }
 
-img{
+/*img{
   /*position: absolute;*/
 
-  left: 0px;
-    top: 0px;
+  /*left: 0px;
+    top: 0px;*/
   /*z-index: -1;*/
-}
+/*}*/*/
 
 .part-1 img{
   width: 300px;
@@ -84,7 +85,6 @@ img{
   /*border: 1px solid green;*/
     left: 10px;
     top: 20px;
-    z-index: 1;
 }
 #Endless_Possibilities{
   width: 300px;
@@ -184,13 +184,6 @@ img{
   background-image:url("../img/product-7.jpg");
   display: flex;
   justify-content: center;
-}
-
-
-.Image_Title{
-  /*position: absolute;*/
-  z-index: 1;
-  /*background-color: red;*/
 }
 
 .part-2 img{
