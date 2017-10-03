@@ -2,17 +2,45 @@
   box-sizing: border-box;
 }
 
+h2{
+  display:flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
 body {
   background-color: #F2F1E8
 }
 
-div img {
-  width: 30%;
-  max-height: 500px;
+nav{
+  display: flex;
+  background-color: white;
+  color: white;
+
+  /*display: inline;*/
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.links {
+  justify-content: center;
+  margin: auto;
+}
+
+nav a {
+  margin-left: 60px;
+}
+
+/*div img {
+  width: 300px;
+  max-height: 350px;
   /*z-index: 0;*/
   /*position: relative;*/
   margin: 1%;
-}
+}*/
 
 p {
   /*z-index: auto;*/
@@ -30,14 +58,156 @@ nav{
   color: white;
 }
 
+.part-2 img{
+  width:250px;
+  max-height: 300px;
+  z-index: -1;
+}
+
+img{
+  /*position: absolute;*/
+
+  left: 0px;
+    top: 0px;
+  /*z-index: -1;*/
+}
+
+.part-1 img{
+  width: 300px;
+  max-height: 350px;
+  padding-right: 10px;
+}
+
 .part-1 {
   /*float: left;*/
   display: flex;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
+    left: 10px;
+    top: 20px;
+    z-index: 1;
+}
+#Endless_Possibilities{
+  width: 300px;
+  height: 300px;
+  color: #F2F1E8;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:url("../img/product-1.jpg");
+  display: flex;
+  justify-content: center;
 }
 
-.part-2 {
-  border: 1px solid blue;
+#Tea_Time_img{
+  width: 300px;
+  height: 300px;
+  color: #F2F1E8;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:url("../img/product-4.jpg");
   display: flex;
+  justify-content: center;
 
+}
+
+#Textures_img{
+  width: 300px;
+  height: 300px;
+  color: #F2F1E8;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:url("../img/product-3.jpg");
+  display: flex;
+  justify-content: center;
+}
+
+#Sets_img{
+  width: 300px;
+  height: 300px;
+  color: #F2F1E8;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:url("../img/product-2.jpg");
+  display: flex;
+  justify-content: center;
+}
+
+
+#Wasabi_and_Sake{
+  width: 300px;
+  height: 300px;
+  color: #F2F1E8;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:url("../img/product-6.jpg");
+  display: flex;
+  justify-content: center;
+}
+
+#Jars_and_Containers{
+  width: 300px;
+  height: 300px;
+  color: #F2F1E8;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:url("../img/product-5.jpg");
+  display: flex;
+  justify-content: center;
+}
+
+#Sippin_on_Sunshine{
+  width: 300px;
+  height: 300px;
+  color: #F2F1E8;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:url("../img/product-7.jpg");
+  display: flex;
+  justify-content: center;
+}
+
+
+.Image_Title{
+  /*position: absolute;*/
+  z-index: 1;
+  /*background-color: red;*/
+}
+
+.part-2 img{
+  width: 300px;
+  max-height: 350px;
+  padding-right: 10px;
+  /*z-index: 1;*/
+}
+
+
+.part-2 {
+  /*border: 1px solid blue;*/
+  display: flex;
+}
+
+footer {
+  background-color: rgb(43, 47, 39);
+  color: white;
+  padding: 10px;
 }

@@ -12,19 +12,23 @@ img {
 
 nav{
   display: flex;
-  justify-content: center;
   background-color: white;
   color: white;
   /*display: inline;*/
 }
 
-/*.links {
-  margin-left: 35%;
+.logo {
+  height: 50px;
+}
+
+.links {
+  justify-content: center;
+  margin: auto;
 }
 
 nav a {
   margin-left: 60px;
-}*/
+}
 
 .top-half, .bottom-half {
   width: 70%;
